@@ -6,9 +6,10 @@ import (
 	"net/http"
 	"os"
 
+	"go-product-api/model"
+
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
-	"github.com/stefanosdl/go-product-api/model"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
